@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Quiz</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>        
+        <link rel="stylesheet" type="text/css" href="after_login.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <h3 id="player1_name">  </h3> <span id="Player1_score"> </span> <br> <br> 
+            <h3 id="player2_name">  </h3> <span id="Player2_score"> </span> <br> <br> 
+
+            <div class="container">
+                    <center>
+                        <h1 style="color:black; font-family: 'Acme', sans-serif; font-size:50px; text-decoration: underline; text-decoration-color: cornsilk;"> Test Your Math </h2>
+                        <h3 id="player_question"> </h3>
+			            <h3 id="player_answer"> </h3> 
+                        <div id="output_div" class="col-lg-6" style="display: none;"> </div>
+                        <br>
+                        <br>
+                        <b style="font-size: 27px; font-family: 'Lobster', cursive; color: red;"> Send Your Maths Question </b>
+                     <br> <br> <br>  <div> <h3 style="color: white; font-family:Georgia, 'Times New Roman', Times, serif; "> Number 1 </h3> </div> <br> 
+                        <input type="number" id="number1" class="form-control" placeholder="Enter only Number 1" style="font-family: monospace;">
+                        <br> 
+                        <div> <h3 style="color: white; font-family:Georgia, 'Times New Roman', Times, serif;"> Number 2 </h3> </div> <br>
+                        <input type="number" id="number2" class="form-control" placeholder="Enter only Number 2" style="font-family: monospace;"> 
+                        <br>
+                    <button onclick="send()" class="btn" style="width: 30%;color: whitesmoke;font-weight: bold;font-size: 18px ;background-color: rgb(247, 35, 81);"> Send </button>
+                    </center>
+            </div>
+    </body>
+</html>
